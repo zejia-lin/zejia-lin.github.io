@@ -12,16 +12,21 @@ defaultMarkdownHandler = "goldmark"
   [goldmark.renderer]
     unsafe = true
 
-[highlight]
-  codeFences = false
-  guessSyntax = false
-  hl_Lines = ""
+[highLight]
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ''
+  hl_inline = false
+  lineAnchors = ''
   lineNoStart = 1
   lineNos = false
   lineNumbersInTable = true
   noClasses = false
-  style = "dracula"
+  noHl = false
+  style = 'monokai'
   tabWidth = 4
+
 
 [tableOfContents]
   endLevel = 3
