@@ -26,12 +26,11 @@ import subprocess
 
 
 shared_index_fron_matter = """---
-title : "Shared Files"
-description: "Shared files"
-lead: ""
-date: 2023-05-03T21:25:40+00:00
-lastmod: 2023-05-03T21:25:40+00:00
-draft: false
+title: "Shared Files"
+description: ""
+date: 2023-05-03T21:49:48+08:00
+lastmod: 2023-05-03T21:49:48+08:00
+draft: true
 images: []
 ---
 
@@ -51,8 +50,8 @@ def remove_front_matter(file_path):
 
 def make_shared_file_index(dirname):
     filenames = os.listdir(dirname)
-    filenames.remove('_index.md')
-    with open(os.path.join(dirname, '_index.md'), 'w') as index_md:
+    filenames.remove('index.md')
+    with open(os.path.join(dirname, 'index.md'), 'w') as index_md:
         index_md.write(shared_index_fron_matter)
         index_md.write('<ul align=\"left\">\n')
         for filename in filenames:

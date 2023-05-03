@@ -8,6 +8,11 @@
   url = "/blog/"
   weight = 20
 
+[[main]]
+  name = "File"
+  url = "shared"
+  weight = 30
+
 [[docs]]
   name = "Prologue"
   weight = 100
