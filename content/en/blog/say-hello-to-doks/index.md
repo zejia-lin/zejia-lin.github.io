@@ -6,7 +6,7 @@ lastmod: 2023-01-12T18:34:30+08:00
 draft: false
 weight: 50
 images: []
-categories: ["Misc"]
+categories: ["Misc", "lala", "very loooooong category"]
 tags: ["misc"]
 contributors: ["Zejia Lin"]
 pinned: false

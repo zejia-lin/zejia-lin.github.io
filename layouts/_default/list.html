@@ -11,13 +11,14 @@
   <div class="col">
     <div class="card p-0 m-0">
       <div class="row align-items-center">
-        <div class="col-md-4 ms-3">
-          {{- .Scratch.Set "fillImage" "1280x1280 Center" -}}
+        <div class="col-md-4 ms-3 p-3 m-1">
+          {{- .Scratch.Set "fillImage" "600x600 Center" -}}
           {{ partial "content/figure.html" . }}
+          <p align="center" class="p-0 m-0"><small>📅 {{ .PublishDate.Format "2006-01-02" }}</small></p>
         </div>
-        <div class="col-md-10 card-body">
+        <div class="col-md-10 card-body ps-0 pt-0 pb-0">
           <article>
-            <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+            <h3 class="mt-4"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h3>
             <p>{{ .Params.excerpt | safeHTML }}</p>
             {{ partial "main/blog-meta.html" . -}}
           </article>

@@ -2,9 +2,9 @@
 <article>
 <div class="row justify-content-center">
   <div class="row justify-content-center  align-items-center">
-    <div class="col-md-2">
-      <div align="center">
-        {{- .Scratch.Set "fillImage" "1280x1280 Center" -}}
+    <div class="col-md-2 p-0 m-0">
+      <div align="center p-0 m-0">
+        {{- .Scratch.Set "fillImage" "800x600 Center" -}}
         {{ partial "content/figure.html" . }}
       </div>
     </div>
@@ -14,9 +14,9 @@
         {{ partial "main/blog-meta.html" . }}
       </div>
     </div>
-    <div class="col-md-2" style="visibility: hidden;">
-      <div align="center">
-        {{- .Scratch.Set "fillImage" "200x200 Center" -}}
+    <div class="col-md-2 p-0 m-0" style="visibility: hidden;">
+      <div align="center p-0 m-0">
+        {{- .Scratch.Set "fillImage" "800x600 Center" -}}
         {{ partial "content/figure.html" . }}
       </div>
     </div>
