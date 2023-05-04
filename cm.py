@@ -34,6 +34,7 @@ if __name__ == '__main__':
     print('In ./content/en/shared')
     subprocess.check_call(['git', 'add', '.'], cwd='content/en/shared')
     subprocess.call(['git', 'commit', '-m', f'{msg}'], cwd='content/en/shared')
+    subprocess.check_call(['git', 'push'])
     print('In ./')
     subprocess.check_call(['git', 'add', '.'], cwd=basedir)
     subprocess.call(['git', 'commit', '-m', f'{msg}'], cwd=basedir)
