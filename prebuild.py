@@ -51,6 +51,7 @@ def remove_front_matter(file_path):
 def make_shared_file_index(dirname):
     filenames = sorted(os.listdir(dirname))
     filenames.remove('index.md')
+    filenames.remove('.git')
     with open(os.path.join(dirname, 'index.md'), 'w') as index_md:
         index_md.write(shared_index_fron_matter)
         index_md.write('<ul align=\"left\">\n')
