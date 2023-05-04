@@ -31,7 +31,9 @@ if __name__ == '__main__':
     parser.add_argument("msg")
     args = parser.parse_args()
     msg = args.msg
+    print('In ./content/en/shared')
     subprocess.check_call(['git', 'add', '.'], cwd='content/en/shared')
     subprocess.call(['git', 'commit', '-m', f'{msg}'], cwd='content/en/shared')
+    print('In ./')
     subprocess.check_call(['git', 'add', '.'], cwd=basedir)
     subprocess.call(['git', 'commit', '-m', f'{msg}'], cwd=basedir)
