@@ -1,0 +1,3 @@
+[submodule "content/en/shared"]
+	path = content/en/shared
+	url = git@github.com:Zeege-0/static-file.git
