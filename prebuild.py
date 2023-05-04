@@ -49,7 +49,7 @@ def remove_front_matter(file_path):
 
 
 def make_shared_file_index(dirname):
-    filenames = os.listdir(dirname)
+    filenames = sorted(os.listdir(dirname))
     filenames.remove('index.md')
     with open(os.path.join(dirname, 'index.md'), 'w') as index_md:
         index_md.write(shared_index_fron_matter)
