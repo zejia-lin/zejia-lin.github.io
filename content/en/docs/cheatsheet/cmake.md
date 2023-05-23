@@ -15,6 +15,14 @@ toc: true
 showtitle: false
 ---
 
+# Quick Start
+
+```cmake
+target_include_directories(target PRIVATE ${directories})
+target_link_libraries(target ${library_paths})
+target_link_options(target PRIVATE LINKER:-rpath,${library_path})
+```
+
 # Variables
 
 ## Tutorial
@@ -59,4 +67,5 @@ message("All targets: ${all_targets}")
 
 ## Custom commands
 
-https://dev.to/iblancasa/learning-cmake-3-understanding-addcustomcommand-and-addcustomtarget-43gp
+- https://stackoverflow.com/questions/18427877/add-custom-build-step-in-cmakehttps://dev.to/iblancasa/learning-cmake-3-understanding-addcustomcommand-and-addcustomtarget-43gp
+- https://stackoverflow.com/questions/18427877/add-custom-build-step-in-cmake

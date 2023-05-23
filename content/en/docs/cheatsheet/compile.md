@@ -64,3 +64,9 @@ strings libstdc++.so.6 | grep GLIBCXX
 - `-dynamic-linker`: specifies the dynamic linker, see a good [tutorial for dynamic linking](https://developer.ibm.com/tutorials/l-dynamic-libraries/) 
 
 
+# LLVM Tools
+
+- Emit machine code. Replace `asm` with `obj` to generate object file instead.
+  ```bash
+  echo 'define internal noundef i32 @myfunc() { ret i32 0 }' | llc -march=x86-64 -filetype=asm -
+  ```

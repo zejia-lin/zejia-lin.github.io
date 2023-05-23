@@ -59,3 +59,12 @@ void readbin(const std::string &filename, void *buffer, size_t bytes) {
 }
 
 ```
+
+## Macros
+
+- Identifier with line number
+  ```cpp
+  #define CAT_(a, b) a ## b
+  #define CAT(a, b) CAT_(a, b)
+  #define VARNAME(Var) CAT(Var, __LINE__)
+  ```
