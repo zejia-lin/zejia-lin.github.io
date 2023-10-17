@@ -71,5 +71,5 @@ if __name__ == '__main__':
     readme_path = os.path.join(basedir, 'README.md')
     shutil.copy2(index_path, readme_path)
     remove_front_matter(readme_path)
-    make_shared_file_index(shared_dir)
+    # make_shared_file_index(shared_dir)
     

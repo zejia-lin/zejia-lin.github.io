@@ -15,15 +15,23 @@ main:
 
 # Bash
 
-Zip and unzip
+A nice cheatsheet: [https://devhints.io/bash](https://devhints.io/bash)
 
-```bash
-tar -czf abc.tar.gz files --exclude=pattern # gz
--cjf # bz2
-tar -xzf abc.tar.gz -C path
-```
-
-
+- Zip and unzip
+  ```bash
+  tar -czf abc.tar.gz files --exclude=pattern # gz
+  -cjf # bz2
+  tar -xzf abc.tar.gz -C path
+  ```
+- Absolute path of current file
+  ```bash
+  script_dir=$(dirname $(readlink -f "$0"))
+  ```
+- Test if variable is set
+  ```bash
+  # From https://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash
+  if [ -z ${var+x} ]; then echo "var is unset"; else echo "var is set to '$var'"; fi
+  ```
 
 
 # Python

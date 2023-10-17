@@ -12,7 +12,7 @@ description = "Homepage"
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "lamzr.com"
+domainTLD = "zejia-lin.github.io"
 titleHome = "Zejia LIN"
 
 ## Twitter Cards
@@ -26,7 +26,7 @@ schemaName = "Zejia LIN"
 schemaAuthor = "Zejia LIN"
 # schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/zeege-0"
+schemaAuthorGitHub = "https://github.com/zejia-lin"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/Zeege-0/Zeege-0.github.io"
+schemaGitHub = "https://github.com/zejia-lin/zejia-lin.github.io"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright ©️ 2023 Zejia LIN  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright ©️ 2023 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
 copyRight = "Copyright (c) 2023 Zejia LIN"
@@ -74,13 +74,13 @@ copyRight = "Copyright (c) 2023 Zejia LIN"
 alert = false
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/Zeege-0/Zeege-0.github.io"
+docsRepo = "https://github.com/zejia-lin/zejia-lin.github.io"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = true
