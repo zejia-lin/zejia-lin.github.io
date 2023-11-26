@@ -7,33 +7,27 @@
   <!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.4.1/sakana.min.css -->
   <!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.4.1/sakana.min.js -->
 
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.css"
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.css" />
   <div id="sakana-widget"></div>
   <script>
-  function initSakanaWidget() {
-    new SakanaWidget(autoFit=true).setState({ r:2, y:2 }).mount('#sakana-widget'); //i: 0.005, d: 1, 
-  }
+    function initSakanaWidget() {
+      new SakanaWidget(autoFit = true).setState({ r: 2, y: 2 }).mount('#sakana-widget'); //i: 0.005, d: 1, 
+    }
   </script>
-  <script
-  async
-  onload="initSakanaWidget()"
-  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.js"
-  ></script>
+  <script async onload="initSakanaWidget()"
+    src="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.js"></script>
 </div>
 
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-11 text-center">
-      <h1 class="mt-0"><img style="height:auto; border-radius:50%" alt="" width="150" height="150"  
-        src="avatar.jpeg" /> {{ .Title }}</h1>
+      <h1 class="mt-0"><img style="height:auto; border-radius:50%" alt="" width="150" height="150" src="avatar.jpeg" />
+        {{ .Title }}</h1>
     </div>
     <!-- <div class="col-lg-9 col-xl-8 text-center"> -->
-      <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
-      <!-- <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a> -->
-      <!-- <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p> -->
+    <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
+    <!-- <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a> -->
+    <!-- <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p> -->
     <!-- </div> -->
   </div>
 </section>
@@ -45,32 +39,45 @@
 
 {{ define "sidebar-footer" }}
 <style>
-  h1{
+  .btn-sm {
+    padding-left: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1;
+  }
+
+  h1 {
     text-align: left;
   }
-  h2{
+
+  h2 {
     text-align: left;
   }
-  h3{
+
+  h3 {
     text-align: left;
   }
-  p{
+
+  p {
     text-align: left;
   }
-  ol{
+
+  ol {
     text-align: left;
   }
-  ul{
+
+  ul {
     text-align: left;
   }
-  li{
+
+  li {
     text-align: left;
   }
 </style>
 
 <section class="section section-sm container-fluid">
   <div class="row justify-content-center text-center">
-    <div class="col-lg-8">
+    <div class="col-lg-10">
       {{- .Content -}}
     </div>
   </div>

@@ -18,8 +18,9 @@ I'm a second-year master student of Computer Science at <a href="https://cse.sys
 
 ## Publications
 
-- [ICCD'23] **Zejia Lin**, Zewei Mo, Xuanteng Huang, Xianwei Zhang, and Yutong Lu. KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications. 
-- [CF'22] Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu. [moTuner: A Compiler-based Auto-tuning Approach for Mixed-precision Operators](https://dl.acm.org/doi/10.1145/3528416.3530231). [[Paper](/shared/papers/motuner_cf22.pdf)] [[Slide](/shared/talks/motuner_cf22.pdf)].
+- <button type="button" class="btn btn-sm btn-primary" disabled>ICCD'23</button> <a href="/shared/papers/kesco_iccd23.pdf" type="button" class="btn btn-outline-primary btn-sm">Paper</a> <a href="/shared/talks/kesco_iccd23_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications. <br>**Zejia Lin**, Zewei Mo, Xuanteng Huang, Xianwei Zhang, and Yutong Lu.
+
+- <button type="button" class="btn btn-sm btn-primary" disabled>CF'22</button> <a href="/shared/papers/motuner_cf22.pdf" type="button" class="btn btn-outline-primary btn-sm">Paper</a> <a href="/shared/talks/motuner_cf22_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> [moTuner: A Compiler-based Auto-tuning Approach for Mixed-precision Operators](https://dl.acm.org/doi/10.1145/3528416.3530231). <br> Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu.
 
 ## Experiences
 
