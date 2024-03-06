@@ -18,10 +18,17 @@ showtitle: true
 ## Split string
 
 ```cpp
-std::regex ws_re("\s+"); // whitespace
-std::vector<std::string> v(
+std::vector<std::string> split(const std::string &s, const std::string &delim=""){
+  std::string rr = "\\s+";
+  if(delim != ""){
+    rr = delim + "+";
+  }
+  std::regex ws_re(rr); // whitespace
+  std::vector<std::string> v(
     std::sregex_token_iterator(str.begin(), str.end(), ws_re, -1),
     std::sregex_token_iterator());
+  return v;
+}
 ```
 
 ## Binary file IO
