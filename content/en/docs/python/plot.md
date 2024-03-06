@@ -1,6 +1,6 @@
 ---
 title: "Plot"
-description: ""
+description: "Snippets for Python matplotlib"
 lead: ""
 date: 2024-03-05T18:02:25+08:00
 lastmod: 2024-03-05T18:02:25+08:00
