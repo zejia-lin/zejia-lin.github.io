@@ -147,9 +147,9 @@ def lineplot(data=None, *, x=None, y=None,
 
 
 def barplot(data, *, x=None, y=None, hue=None, ax=None, hatches=None, palette=None,
-            linewidth=1.5, alpha=1, saturation=1, edgecolor='k'):
+            linewidth=1.5, alpha=1, saturation=1, edgecolor='k', **kwargs):
   sns.barplot(data, x=x, y=y, hue=hue, ax=ax, palette=palette, 
-              linewidth=linewidth, alpha=alpha, saturation=saturation, edgecolor=edgecolor)
+              linewidth=linewidth, alpha=alpha, saturation=saturation, edgecolor=edgecolor, **kwargs)
   if hatches is None:
      return
   if hatches is True:
@@ -160,6 +160,15 @@ def barplot(data, *, x=None, y=None, hue=None, ax=None, hatches=None, palette=No
           hue.set_hatch(hatch)
 
 
+def set_mean_bar_label(ax, fontsize=17, fontweight='bold', rotation=90, padding=10, **kwargs):
+    for container in ax.containers:
+        labels = ['%.2f' % v for v in container.datavalues]
+        for i in range(len(container) - 1):
+            labels[i] = ''
+        ax.bar_label(container, labels=labels, fontsize=fontsize, fontweight=fontweight, 
+                     rotation=rotation, padding=padding, **kwargs)
+
+
 def trimm_mean(df, by, value, lo, hi, outelier_rate=1.5):
     fltr = df.groupby(by).apply(
         lambda x: x[(x[value] <= x[value].min() * outelier_rate)
@@ -167,6 +176,7 @@ def trimm_mean(df, by, value, lo, hi, outelier_rate=1.5):
                     & (x[value] <= x[value].quantile(hi))])
     fltr = fltr.reset_index(drop=True).groupby(by).mean().reset_index()
     return fltr
+
 
 ```
 
