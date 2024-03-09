@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright ©️ 2023 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright ©️ 2024 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2023 Zejia LIN"
+copyRight = "Copyright (c) 2024 Zejia LIN"
 
 # Alert
 alert = false
