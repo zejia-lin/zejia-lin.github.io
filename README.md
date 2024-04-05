@@ -9,6 +9,8 @@ I'm a second-year Ph.D. student of Computer Science at <a href="https://cse.sysu
 
 ## Publications
 
+- <button type="button" class="btn btn-sm btn-primary" disabled>LCTES'24</button> <a href="" type="button" class="btn btn-outline-primary btn-sm">Paper</a> <a href="" type="button" class="btn btn-outline-primary btn-sm">Slides</a> [MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](). <br>**Zejia Lin**, Aoyuan Sun, Xianwei Zhang, and Yutong Lu.
+
 - <button type="button" class="btn btn-sm btn-primary" disabled>ICCD'23</button> <a href="/shared/papers/kesco_iccd23.pdf" type="button" class="btn btn-outline-primary btn-sm">Paper</a> <a href="/shared/talks/kesco_iccd23_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> [KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications](https://ieeexplore.ieee.org/document/10361015). <br>**Zejia Lin**<sup>#</sup>, Zewei Mo<sup>#</sup>, Xuanteng Huang, Xianwei Zhang, and Yutong Lu.
 
 - <button type="button" class="btn btn-sm btn-primary" disabled>CF'22</button> <a href="/shared/papers/motuner_cf22.pdf" type="button" class="btn btn-outline-primary btn-sm">Paper</a> <a href="/shared/talks/motuner_cf22_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> [moTuner: A Compiler-based Auto-tuning Approach for Mixed-precision Operators](https://dl.acm.org/doi/10.1145/3528416.3530231). <br> Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu.
@@ -17,5 +19,11 @@ I'm a second-year Ph.D. student of Computer Science at <a href="https://cse.sysu
 
 ## Experiences
 
-- Spring 2023. Teaching assistant of [DCS290/292: Compiler Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University
-- 2021.07 -- 2021.09. Backend develop intern at Wechat Pay, Tencent (Shenzhen). 
+- [Spring 2023]. Teaching assistant of [DCS290/292: Compiler Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University
+- [2021.07 -- 2021.09]. Backend develop intern at Wechat Pay, Tencent (Shenzhen). 
+
+## Awards
+
+- [2022, 2023]. **First Class Scholarship**, Sun Yat-sen University.
+- [2018 -- 2021]. **First Class Scholarship**, Northwestern Polytechnical University.
+- [2020]. **Second Price**, CCCC Wechat Mini Program Development.
