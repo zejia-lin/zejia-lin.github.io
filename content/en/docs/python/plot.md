@@ -14,6 +14,16 @@ weight: 999
 toc: true
 ---
 
+## True Type Font
+
+```python
+https://stackoverflow.com/questions/44314401/matplotlib-non-uniform-fonts-in-pdf-after-changing-from-type-3-font-to-type-1
+plt.rcParams['pdf.fonttype'] = 42
+plt.rcParams['ps.fonttype'] = 42
+params = {'text.usetex': False, 'mathtext.fontset': 'stixsans'}
+plt.rcParams.update(params)
+```
+
 ## Tick
 
 ### Tick direction
