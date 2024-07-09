@@ -18,7 +18,7 @@ I am a second-year Ph.D. student of Computer Science at [Sun Yat-sen University]
 
 ## Publications
 
-<button type="button" class="btn btn-sm btn-primary" disabled>LCTES'24</button> <a href="" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores]()** (To appear) <br>
+<button type="button" class="btn btn-sm btn-primary" disabled>LCTES'24</button> <a href="/shared/papers/mixpert_lctes24.pdf" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="/shared/talks/mixpert_lctes24_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](https://dl.acm.org/doi/abs/10.1145/3652032.3657567)** <br>
 **Zejia Lin**, Aoyuan Sun, Xianwei Zhang, and Yutong Lu. <br>
 *ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems.*
 
