@@ -32,5 +32,6 @@ Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu. <br>
 ## Awards
 
 - [2022, 2023]. **First Class Scholarship**, Sun Yat-sen University.
+- [2022]. **Excellence Scholarship**, Tencent Technology.
 - [2018 -- 2021]. **First Class Scholarship**, Northwestern Polytechnical University.
 - [2020]. **Second Price**, CCCC Wechat Mini Program Development.
