@@ -2,9 +2,12 @@
 
 ## <img style="height:auto; border-radius:50%" alt="" width="80" height="150" src="avatar.jpeg" /> Zejia Lin（林泽佳）
 
-I am a second-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/) co-advised by Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483) and Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/). I completed bachelor degree at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). My research interests focus on optimizing GPU computing systems. A particular emphasis is on resource sharing and mixed-precision computation. Look over my [résumé](/shared/resume.pdf) for more details.
+I am a third-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/) co-advised by Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483) and Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/). I completed bachelor degree at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-- Email: linzj39[AT]mail2.sysu.edu.cn
+My research interests lie in optimizing GPU computing systems for general computing and AI workloads. A particular emphasis is on software designs (architecture/compiler/runtime) around resource sharing and mixed-precision computation.
+
+- Résumé: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历9.29v3.pdf)
+- Email: linzj39 [AT] mail2.sysu.edu.cn
 - Github: <a href="https://github.com/zejia-lin">github.com/zejia-lin</a>
 - LinkedIn: [linkedin.com/in/zejia-lin-sysu/](https://www.linkedin.com/in/zejia-lin-sysu/)
 
