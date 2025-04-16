@@ -6,7 +6,7 @@ I am a third-year Ph.D. student of Computer Science at [Sun Yat-sen University](
 
 My research interests lie in optimizing GPU computing systems for general computing and AI workloads. A particular emphasis is on software designs (architecture/compiler/runtime) around resource sharing and mixed-precision computation.
 
-- Résumé: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历9.29v3.pdf)
+- Résumé: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历2025-0416.pdf)
 - Email: linzj39 [AT] mail2.sysu.edu.cn
 - Github: <a href="https://github.com/zejia-lin">github.com/zejia-lin</a>
 - LinkedIn: [linkedin.com/in/zejia-lin-sysu/](https://www.linkedin.com/in/zejia-lin-sysu/)
