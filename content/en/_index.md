@@ -22,6 +22,10 @@ My research interests lie in optimizing GPU computing systems for general comput
 
 ## Publications
 
+<button type="button" class="btn btn-sm btn-primary" disabled>DAC'25</button> <a href="/shared/papers/goptx_dac25.pdf" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="/shared/talks/goptx_dac25_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving]()** <br>
+Kan Wu, **Zejia Lin**, Mengyue Xi, Zhongchun Zheng, Wenxuan Pan, Xianwei Zhang, and Yutong Lu. <br>
+*ACM/IEEE Design Automation Conference.*
+
 <button type="button" class="btn btn-sm btn-primary" disabled>LCTES'24</button> <a href="/shared/papers/mixpert_lctes24.pdf" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="/shared/talks/mixpert_lctes24_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](https://dl.acm.org/doi/abs/10.1145/3652032.3657567)** <br>
 **Zejia Lin**, Aoyuan Sun, Xianwei Zhang, and Yutong Lu. <br>
 *ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems.*
@@ -38,6 +42,7 @@ Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu. <br>
 
 ## Experiences
 
+- [2024.12 -- Now]. LLM research intern at Wechat Search, Tencent (Guangzhou).
 - [Spring 2023]. Teaching assistant of [DCS290/292: Compilation Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University
 - [2021.07 -- 2021.09]. Backend develop intern at Wechat Pay, Tencent (Shenzhen). 
 
