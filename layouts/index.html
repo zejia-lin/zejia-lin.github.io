@@ -188,7 +188,7 @@
     height: calc(100vh - 60px);
     background: #fff;
     border-right: 1px solid #e9ecef;
-    z-index: 1000;
+    z-index: -1;
     overflow-y: auto;
     transition: transform 0.3s ease;
   }
@@ -375,6 +375,7 @@ function toggleSidebar() {
   const overlay = document.getElementById('sidebarOverlay');
   
   sidebar.classList.toggle('show');
+  sidebar.style.zIndex = '1000';
   overlay.classList.toggle('show');
 }
 
@@ -383,6 +384,7 @@ function closeSidebar() {
   const overlay = document.getElementById('sidebarOverlay');
   
   sidebar.classList.remove('show');
+  sidebar.style.zIndex = -1;
   overlay.classList.remove('show');
 }
 </script>
