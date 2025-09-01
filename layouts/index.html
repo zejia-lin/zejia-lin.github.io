@@ -1,7 +1,14 @@
 {{ define "main" }}
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Mobile Menu Toggle Button -->
+<!-- <button class="mobile-menu-toggle" onclick="toggleSidebar()">
+  <i>Links</i>
+</button> -->
+
 <!-- Fixed Sidebar -->
-<div class="sidebar-fixed">
+<div class="sidebar-fixed" id="sidebar">
   <div class="sidebar-content">
     <div class="profile-section">
       <img src="avatar.jpeg" alt="Zejia Lin" class="profile-image">
@@ -10,28 +17,36 @@
     </div>
     
     <nav class="sidebar-nav">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#experiences">Experiences</a></li>
-        <li><a href="#awards">Awards</a></li>
-      </ul>
+      <table class="nav-table">
+        <tbody>
+          <tr>
+            <td class="icon-cell"><i class="fa-solid fa-location-dot"></i></td>
+            <td class="text-cell">Guangzhou, China</td>
+          </tr>
+          <tr>
+            <td class="icon-cell"><i class="fab fa-github"></i></td>
+            <td class="text-cell"><a href="https://github.com/zejia-lin" target="_blank" title="GitHub">Github</a></td>
+          </tr>
+          <tr>
+            <td class="icon-cell"><i class="fas fa-envelope"></i></td>
+            <td class="text-cell"><a href="mailto:linzj39@mail2.sysu.edu.cn" target="_blank" title="Email">Email</a></td>
+          </tr>
+          <tr>
+            <td class="icon-cell"><i class="fa-solid fa-graduation-cap"></i></td>
+            <td class="text-cell"><a href="https://scholar.google.com/citations?user=NEKhdmMAAAAJ&hl=en" target="_blank" title="Google Scholar">Google Scholar</a></td>
+          </tr>
+          <tr>
+            <td class="icon-cell"><i class="fab fa-linkedin"></i></td>
+            <td class="text-cell"><a href="https://www.linkedin.com/in/zejia-lin-sysu/" target="_blank" title="LinkedIn">LinkedIn</a></td>
+          </tr>
+        </tbody>
+      </table>
     </nav>
-    
-    <div class="social-links">
-      <a href="https://github.com/zejia-lin" target="_blank" title="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/zejia-lin-sysu/" target="_blank" title="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="mailto:linzj39@mail2.sysu.edu.cn" title="Email">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </div>
   </div>
 </div>
 
+<!-- Overlay for mobile -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
 
 {{ end }}
 
@@ -42,9 +57,23 @@
 
 <!-- Main Content with Sidebar Offset -->
 <div class="main-content-with-sidebar">
+  <!-- Mobile Profile Section (hidden on desktop) -->
+  <div class="mobile-profile-section">
+    <div class="mobile-profile-content">
+      <img src="avatar.jpeg" alt="Zejia Lin" class="mobile-profile-image">
+      <div class="mobile-profile-text">
+        <h2>Zejia Lin</h2>
+        <p class="mobile-profile-subtitle">林泽佳</p>
+      </div>
+      <button class="mobile-menu-toggle" onclick="toggleSidebar()">
+        <i>More</i>
+      </button>
+    </div>
+  </div>
+  
   <section class="section section-sm container-fluid">
     <div class="row justify-content-center text-center">
-      <div class="col-lg-10">
+      <div class="col-lg-9">
         {{- .Content -}}
       </div>
     </div>
@@ -52,22 +81,120 @@
 </div>
 
 <style>
+  /* Mobile Profile Section (hidden by default) */
+  .mobile-profile-section {
+    display: none;
+    padding: 1rem 1rem;
+    margin-bottom: -1.5rem;
+    background: #fff;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .mobile-profile-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .mobile-profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .mobile-profile-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .mobile-profile-section h2 {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.5rem;
+  }
+
+  .mobile-profile-subtitle {
+    font-weight: 500;
+    margin-bottom: 0;
+    /* color: #6c757d; */
+    font-size: 1rem;
+  }
+
+  /* Dark theme for mobile profile */
+  [data-dark-mode] .mobile-profile-section,
+  .dark .mobile-profile-section,
+  body.dark .mobile-profile-section {
+    background: #22252A;
+    border-bottom-color: #333;
+  }
+
+  [data-dark-mode] .mobile-profile-section h2,
+  .dark .mobile-profile-section h2,
+  body.dark .mobile-profile-section h2 {
+    color: #fff;
+  }
+
+  [data-dark-mode] .mobile-profile-subtitle,
+  .dark .mobile-profile-subtitle,
+  body.dark .mobile-profile-subtitle {
+    color: #DEE2E6;
+  }
+
+  /* Mobile Menu Toggle Button */
+  .mobile-menu-toggle {
+    display: none;
+    position: static;
+    background: #1B6CD4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu-toggle:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+
+  /* Sidebar Overlay */
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+  }
+
   /* Fixed Sidebar Styles */
   .sidebar-fixed {
     position: fixed;
-    top: 60px; /* Adjusted to account for breadcrumb */
-    left: 0;
-    width: 280px;
-    height: calc(100vh - 60px); /* Adjust height accordingly */
+    top: 60px;
+    left: 0px;
+    width: 260px;
+    height: calc(100vh - 60px);
     background: #fff;
     border-right: 1px solid #e9ecef;
     z-index: 1000;
     overflow-y: auto;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
   }
   
   .sidebar-content {
-    padding: 2rem 1.5rem;
+    padding: 2rem 2.5rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -77,14 +204,13 @@
     text-align: center;
     margin-bottom: 2rem;
     padding-bottom: 0rem;
-    border-bottom: 1px solid #e9ecef;
   }
   
   .profile-image {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-bottom: 0rem;
+    margin-bottom: -1rem;
     object-fit: cover;
   }
   
@@ -95,8 +221,6 @@
   }
   
   .profile-subtitle{
-    /* color: #6c757d; */
-    /* font-size: 0.9rem; */
     font-weight: 500;
     margin-bottom: 0;
     text-align: center;
@@ -105,163 +229,129 @@
   .sidebar-nav {
     flex-grow: 1;
   }
-  
-  .sidebar-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+  .nav-table {
+    width: 100%;
+    margin-top: 0rem;
+    border-collapse: collapse;
+  }
+
+  .nav-table tr {
+    border: none;
+  }
+
+  .nav-table td {
+    padding: 0.5rem;
+    border: none;
+    vertical-align: middle;
   }
   
-  .sidebar-nav li {
-    margin-bottom: 0.5rem;
+  .sidebar-nav td {
+    font-size: medium;
+    padding-right: 0rem;
   }
-  
   .sidebar-nav a {
-    display: block;
-    padding: 0.75rem 1rem;
-    color: #495057;
+    font-size: medium;
+    color: #1C2D35;
     text-decoration: none;
     border-radius: 0.375rem;
     transition: all 0.2s ease;
   }
   
   .sidebar-nav a:hover {
-    background-color: #e9ecef;
     color: #007bff;
-    text-decoration: none;
+    text-decoration: underline;
   }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e9ecef;
+
+  /* Dark Theme Styles */
+  [data-dark-mode] .sidebar-fixed,
+  .dark .sidebar-fixed,
+  body.dark .sidebar-fixed {
+    background: #22252A;
+    border-right-color: #333;
+    box-shadow: 2px 0 5px rgba(255,255,255,0.1);
   }
-  
-  .social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    border: 1px solid #e9ecef;
-    border-radius: 50%;
-    color: #6c757d;
-    text-decoration: none;
-    transition: all 0.2s ease;
+
+  [data-dark-mode] .profile-section h4,
+  .dark .profile-section h4,
+  body.dark .profile-section h4 {
+    color: #fff;
   }
-  
-  .social-links a:hover {
-    background: #007bff;
-    color: white;
-    border-color: #007bff;
-    transform: translateY(-2px);
+
+  [data-dark-mode] .profile-subtitle,
+  .dark .profile-subtitle,
+  body.dark .profile-subtitle {
+    color: #DEE2E6;
   }
-  
+
+  [data-dark-mode] .sidebar-nav a,
+  .dark .sidebar-nav a,
+  body.dark .sidebar-nav a {
+    color: #DEE2E6;
+  }
+
+  [data-dark-mode] .sidebar-nav a:hover,
+  .dark .sidebar-nav a:hover,
+  body.dark .sidebar-nav a:hover {
+    color: #007bff;
+  }
+
   /* Main content offset */
   .main-content-with-sidebar {
-    margin-left: 310px;
+    margin-left: 300px;
     min-height: 100vh;
   }
 
   .main-content-with-sidebar .container-fluid {
-    max-width: none; /* Remove max-width constraint */
-    padding-left: 1rem; /* Reduce left padding */
-    padding-right: 8rem; /* Reduce right padding */
+    max-width: none;
+    padding-left: 1rem;
+    padding-right: 10rem;
   }
   
-  .main-content-with-sidebar .col-lg-10 {
-    max-width: 100%; /* Use full available width */
-    flex: 0 0 100%; /* Take full width */
+  .main-content-with-sidebar .col-lg-9 {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
   
+  /* Responsive design */
+  @media (max-width: 1080px) {
+    .main-content-with-sidebar .container-fluid {
+      max-width: none;
+      padding-left: 1rem;
+      padding-right: 0rem;
+    }
+  }
 
- /* Responsive design */
   @media (max-width: 768px) {
+    .main-content-with-sidebar .container-fluid {
+      max-width: none;
+      padding-left: 1rem;
+      padding-right: 0rem;
+    }
+    .mobile-menu-toggle {
+      display: block;
+    }
+
+    .mobile-profile-section {
+      display: block;
+    }
+
     .sidebar-fixed {
-      position: fixed;
-      top: auto;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: auto;
-      border-right: none;
-      border-top: 1px solid #e9ecef;
-      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+      transform: translateX(-100%);
+      top: 60px;
+      height: 100vh;
     }
     
-    .sidebar-content {
-      flex-direction: row;
-      padding: 1rem;
-      height: auto;
-      align-items: center;
-      justify-content: space-between;
+    .sidebar-fixed.show {
+      transform: translateX(0);
     }
-    
-    .profile-section {
-      flex: 0 0 auto;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      border-bottom: none;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    
-    .profile-image {
-      width: 40px;
-      height: 40px;
-      margin-bottom: 0;
-    }
-    
-    .profile-section h4 {
-      font-size: 0.9rem;
-      margin-bottom: 0;
-    }
-    
-    .profile-subtitle {
-      display: none;
-    }
-    
-    .sidebar-nav {
-      flex-grow: 1;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .sidebar-nav ul {
-      display: flex;
-      gap: 1rem;
-      margin: 0;
-    }
-    
-    .sidebar-nav li {
-      margin-bottom: 0;
-    }
-    
-    .sidebar-nav a {
-      padding: 0.5rem;
-      font-size: 0.8rem;
-    }
-    
-    .social-links {
-      flex: 0 0 auto;
-      border-top: none;
-      padding-top: 0;
-      gap: 0.5rem;
-    }
-    
-    .social-links a {
-      width: 32px;
-      height: 32px;
+
+    .sidebar-overlay.show {
+      display: block;
     }
     
     .main-content-with-sidebar {
       margin-left: 0;
-      margin-bottom: 80px; /* Add bottom margin for mobile navbar */
       padding-right: 1rem;
     }
   }
@@ -278,5 +368,23 @@
     text-align: left;
   }
 </style>
+
+<script>
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  
+  sidebar.classList.toggle('show');
+  overlay.classList.toggle('show');
+}
+
+function closeSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  
+  sidebar.classList.remove('show');
+  overlay.classList.remove('show');
+}
+</script>
 
 {{ end }}

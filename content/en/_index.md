@@ -9,17 +9,15 @@ images: []
 math: true
 ---
 
-## <img style="height:auto; border-radius:50%" alt="" width="80" height="150" src="avatar.jpeg" /> Zejia Lin（林泽佳）
+<!-- ## <img style="height:auto; border-radius:50%" alt="" width="80" height="150" src="avatar.jpeg" /> Zejia Lin（林泽佳） -->
+
+## Hi There!
 
 I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/) co-advised by Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483) and Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/). I completed bachelor degree at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-My research interests lie in optimizing GPU computing systems for general computing and AI workloads. A particular emphasis is on software designs (runtime/compiler) around resource sharing and mixed-precision computation.
-
-- Résumé: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历2025-0416.pdf)
-- Email: linzj39 [AT] mail2.sysu.edu.cn
-- Github: <a href="https://github.com/zejia-lin">github.com/zejia-lin</a>
-- LinkedIn: [linkedin.com/in/zejia-lin-sysu/](https://www.linkedin.com/in/zejia-lin-sysu/)
-- Google Scholar
+My research interests lie in optimizing GPU computing systems for machine learnings. 
+Click for my curriculum vitae: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历2025-0416.pdf).
+<!-- A particular emphasis is on software designs (runtime/compiler) around resource sharing and mixed-precision computation. -->
 
 ## Publications
 
@@ -48,7 +46,7 @@ Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu. <br>
 ## Experiences
 
 - [2024.12 -- Now]. LLM research intern at Wechat Search, Tencent (Guangzhou).
-- [Spring 2023]. Teaching assistant of [DCS290/292: Compilation Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University
+- [Spring 2023]. Teaching assistant of [DCS290/292: Compilation Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University.
 - [2021.07 -- 2021.09]. Backend develop intern at Wechat Pay, Tencent (Shenzhen). 
 
 ## Awards
