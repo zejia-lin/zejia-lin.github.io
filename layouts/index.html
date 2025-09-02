@@ -186,9 +186,9 @@
     left: 0px;
     width: 260px;
     height: calc(100vh - 60px);
-    background: #fff;
+    background: #ffffff00;
     border-right: 1px solid #e9ecef;
-    z-index: -1;
+    z-index: 1000;
     overflow-y: auto;
     transition: transform 0.3s ease;
   }
@@ -269,7 +269,7 @@
   body.dark .sidebar-fixed {
     background: #22252A;
     border-right-color: #333;
-    box-shadow: 2px 0 5px rgba(255,255,255,0.1);
+    /* box-shadow: 2px 0 5px rgba(255,255,255,0.1); */
   }
 
   [data-dark-mode] .profile-section h4,
@@ -375,7 +375,6 @@ function toggleSidebar() {
   const overlay = document.getElementById('sidebarOverlay');
   
   sidebar.classList.toggle('show');
-  sidebar.style.zIndex = '1000';
   overlay.classList.toggle('show');
 }
 
@@ -384,7 +383,6 @@ function closeSidebar() {
   const overlay = document.getElementById('sidebarOverlay');
   
   sidebar.classList.remove('show');
-  sidebar.style.zIndex = -1;
   overlay.classList.remove('show');
 }
 </script>

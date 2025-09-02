@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Zejia LIN"
+title = "Zejia LIN (林泽佳)"
 titleSeparator = "-"
 titleAddition = "Homepage"
 description = "Homepage"
@@ -10,7 +10,7 @@ description = "Homepage"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["avatar.jpeg"]
 ogLocale = "en_US"
 domainTLD = "zejia-lin.github.io"
 titleHome = "Zejia LIN"
@@ -28,10 +28,10 @@ schemaAuthor = "Zejia LIN"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/zejia-lin"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "avatar.jpeg"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "avatar.jpeg"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"

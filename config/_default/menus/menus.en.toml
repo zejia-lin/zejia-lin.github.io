@@ -9,10 +9,16 @@
   weight = 20
 
 [[main]]
+  name = "Publications"
+  identifier = "publications"
+  url = "/publications/"
+  weight = 30
+
+[[main]]
   name = "Goto"
   identifier = "goto"
   url = "/goto/"
-  weight = 30
+  weight = 40
 
 # [[main]]
 #   name = "File"
