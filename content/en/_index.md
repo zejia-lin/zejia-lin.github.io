@@ -13,19 +13,27 @@ math: true
 
 ## Hi There!
 
-I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/) co-advised by Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483) and Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/). I completed bachelor degree at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
+I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/) mentored by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) and Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483). I obtained bachelor degree on Software Engineering at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-My research interests lie in optimizing GPU computing systems for machine learnings. 
-Click for my curriculum vitae: [English](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历2025-0416.pdf).
+My research interests lie in optimizing GPU computing systems for machine learning systems. 
+Click for my [résumé](/shared/resume.pdf), [中文简历](/shared/中山大学-林泽佳简历2025-0416.pdf).
 <!-- A particular emphasis is on software designs (runtime/compiler) around resource sharing and mixed-precision computation. -->
+
+## News
+
+- [2025/04]. LLM serving system Bullet made public on [arXiv](https://arxiv.org/abs/2504.19516) and [Github](https://github.com/zejia-lin/Bullet).
+- [2024/12]. Start working as research intern at Wechat Search, Tencent.
+- [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted by LCTES'24.
+- [2023/07]. First paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted by ICCD'23.
+- [2022/06]. Graduate from Northwestern Polytechnical University.
 
 ## Publications
 
-<button type="button" class="btn btn-sm btn-primary" disabled style="opacity: 1;">arXiv</button> <a href="https://arxiv.org/abs/2504.19516" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
+<button type="button" class="btn btn-sm btn-primary" disabled style="opacity: 1;">arXiv</button> <a href="https://arxiv.org/abs/2504.19516" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-outline-primary btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
 **Zejia Lin**, Hongxin Xu, Guanyi Chen, Zhiguang Chen, Yutong Lu, and Xianwei Zhang. <br>
 
 
-<button type="button" class="btn btn-sm btn-primary" disabled style="opacity: 1;">DAC'25</button> <a href="/shared/papers/goptx_dac25.pdf" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="/shared/talks/goptx_dac25_slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> **[GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving]()** <br>
+<button type="button" class="btn btn-sm btn-primary" disabled style="opacity: 1;">DAC'25</button> <a href="https://xianweiz.github.io/doc/papers/goptx_dac25.pdf" type="button" class="btn btn-outline-primary btn-sm">PDF</a> <a href="https://mizuno-ai.wu-kan.cn/assets/image/2025/06/25/DAC25-GoPTX-Slides.pdf" type="button" class="btn btn-outline-primary btn-sm">Slides</a> <a href="https://github.com/wu-kan/GoPTX" type="button" class="btn btn-outline-primary btn-sm">Code</a> **[GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving]()** <br>
 Kan Wu, **Zejia Lin**, Mengyue Xi, Zhongchun Zheng, Wenxuan Pan, Xianwei Zhang, and Yutong Lu. <br>
 <!-- *ACM/IEEE Design Automation Conference.* -->
 
