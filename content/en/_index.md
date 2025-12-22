@@ -15,8 +15,8 @@ math: true
 
 I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/en), advised by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) and Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483). I obtained bachelor degree on Software Engineering at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-My research interests lie in optimizing GPUs for machine learning systems. 
-Currently, I am inerning at WeChat Search, Tencent, to optimize training and inference of RAG systems.
+My research interests lie in optimizing machine learning systems. 
+Currently, I am interning at WeChat Search, Tencent, to optimize training and inference of RAG systems.
 <!-- A particular emphasis is on resource sharing and mixed-precision.  -->
 
 **Click for my [résumé](/shared/ZejiaLin-Resume.pdf), [中文简历](/shared/中山大学-林泽佳简历.pdf).**
@@ -29,7 +29,6 @@ Currently, I am inerning at WeChat Search, Tencent, to optimize training and inf
 - [2024/12]. Start working as research intern at Wechat Search, Tencent.
 - [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted by LCTES'2024.
 - [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted by ICCD'2023.
-- [2022/06]. Graduate from Northwestern Polytechnical University.
 
 ## Publications
 
