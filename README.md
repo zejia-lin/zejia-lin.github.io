@@ -4,30 +4,30 @@
 
 ## Hi There!
 
-I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/en), advised by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) and Prof. [Yutong Lu](https://cse.sysu.edu.cn/content/2483). I obtained bachelor degree on Software Engineering at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
+I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/en), advised by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) and Prof. [Yutong Lu](https://cse.sysu.edu.cn/teacher/LuYutong). I obtained bachelor degree on Software Engineering at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-My research interests lie in optimizing GPUs for machine learning systems. 
-Currently, I am inerning at WeChat Search, Tencent, to optimize training and inference of RAG systems.
+My research interests lie in optimizing machine learning systems. 
+Currently, I am interning at WeChat Search, Tencent, to optimize LLM inference and RL training performance.
 <!-- A particular emphasis is on resource sharing and mixed-precision.  -->
 
-**Click for my [résumé](/shared/ZejiaLin-Resume.pdf), [中文简历](/shared/中山大学-林泽佳简历.pdf).**
+**I am opening for internship! Click for my [résumé](/shared/ZejiaLin-Resume.pdf), [中文简历](/shared/中山大学-林泽佳简历.pdf).**
 <!-- A particular emphasis is on software designs (runtime/compiler) around resource sharing and mixed-precision computation. -->
 
 ## News
 
-- [2025/11]. [Bullet](https://arxiv.org/abs/2504.19516) is accepted by ASPLOS'2026.
+- [2025/11]. [Bullet](https://arxiv.org/abs/2504.19516) accepted to ASPLOS'2026.
+- [2025/10]. Bullet is presented on [SGLang Beijing Meetup](/shared/talks/SGLangBeijingMeetup.pdf).
 - [2025/04]. LLM serving system Bullet made public on [arXiv](https://arxiv.org/abs/2504.19516) and [Github](https://github.com/zejia-lin/Bullet).
 - [2024/12]. Start working as research intern at Wechat Search, Tencent.
-- [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted by LCTES'2024.
-- [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted by ICCD'2023.
-- [2022/06]. Graduate from Northwestern Polytechnical University.
+- [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted to LCTES'2024.
+- [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted to ICCD'2023.
 
 ## Publications
 
 <a type="button" class="btn btn-sm btn-outline-dark" href="https://arxiv.org/abs/2504.19516">**ASPLOS'26**</a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-light btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
 **Zejia Lin**, Hongxin Xu, Guanyi Chen, Zhiguang Chen, Yutong Lu, and Xianwei Zhang. <br>
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3774652">**TACO**</a> **[HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3774652">**TACO**</a> <a href="https://github.com/Gemini321/HuntKTm" type="button" class="btn btn-light btn-sm">Code</a> **[HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)** <br>
 Wenxuan Pan, **Zejia Lin**, Jiangsu Du and Xianwei Zhang. <br>
 
 

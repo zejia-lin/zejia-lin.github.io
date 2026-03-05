@@ -21,8 +21,8 @@ images: []
 
 - Wenxuan Pan, **Zejia Lin**, Jiangsu Du and Xianwei Zhang. <br>
 [HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://dl.acm.org/doi/10.1145/3774652) <font color="#B22">(CCF-A)</font> <br>
-*ACM Transactions on Architecture and Code Optimization (TACO).*
-[[PDF](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)]
+*ACM Transactions on Architecture and Code Optimization (TACO), Volume 22, Issue 4, Article 161.*
+[[PDF](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)][[Code](https://github.com/Gemini321/HuntKTm)]
 
 - Kan Wu, **Zejia Lin**, Mengyue Xi, Zhongchun Zheng, Wenxuan Pan, Xianwei Zhang, and Yutong Lu. <br>
 [GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving](https://ieeexplore.ieee.org/document/11132627) <font color="#B22">(CCF-A)</font>  <br>
@@ -30,12 +30,12 @@ images: []
 [[PDF](https://xianweiz.github.io/doc/papers/goptx_dac25.pdf)][[Slides](https://mizuno-ai.wu-kan.cn/assets/image/2025/06/25/DAC25-GoPTX-Slides.pdf)][[Code](https://github.com/wu-kan/GoPTX)].
 
 - **Zejia Lin**, Aoyuan Sun, Xianwei Zhang, and Yutong Lu. <br>
-[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](https://dl.acm.org/doi/abs/10.1145/3652032.3657567) <font color="#A66">(CCF-B)</font> <br>
+[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](https://dl.acm.org/doi/abs/10.1145/3652032.3657567) <font color="#d4864e">(CCF-B)</font> <br>
 *The 25th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), 2024.*
 [[PDF](/shared/papers/mixpert_lctes24.pdf)][[Slides](/shared/talks/mixpert_lctes24_slides.pdf)].
 
 - **Zejia Lin**<sup>#</sup>, Zewei Mo<sup>#</sup>, Xuanteng Huang, Xianwei Zhang, and Yutong Lu. <br>
-[KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications](https://ieeexplore.ieee.org/document/10361015) <font color="#A66">(CCF-B)</font> <br>
+[KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications](https://ieeexplore.ieee.org/document/10361015) <font color="#d4864e">(CCF-B)</font> <br>
 *The IEEE 41st International Conference on Computer Design (ICCD), 2023.* 
 [[PDF](/shared/papers/kesco_iccd23.pdf)][[Slides](/shared/talks/kesco_iccd23_slides.pdf)].
 
