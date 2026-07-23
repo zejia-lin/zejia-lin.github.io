@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Zejia LIN"
+title = "Zejia LIN (林泽佳)"
 titleSeparator = "-"
 titleAddition = "Homepage"
 description = "Homepage"
@@ -13,7 +13,7 @@ description = "Homepage"
 images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "zejia-lin.github.io"
-titleHome = "Zejia LIN"
+titleHome = "Zejia LIN (林泽佳)"
 
 ## Twitter Cards
 # twitterSite = "@getdoks"
@@ -22,8 +22,8 @@ titleHome = "Zejia LIN"
 ## JSON-LD
 schemaType = "Person"
 # schemaType = "Organization"
-schemaName = "Zejia LIN"
-schemaAuthor = "Zejia LIN"
+schemaName = "Zejia LIN (林泽佳)"
+schemaAuthor = "Zejia LIN (林泽佳)"
 # schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/zejia-lin"
@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright ©️ 2024 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright ©️ 2025 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2024 Zejia LIN"
+copyRight = "Copyright (c) 2025 Zejia LIN"
 
 # Alert
 alert = false
