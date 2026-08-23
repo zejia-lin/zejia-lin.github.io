@@ -4,7 +4,7 @@ description: "LLVM `call` vs `invoke`, and handling indirect call"
 excerpt: "LLVM call vs invoke, and handling indirect call"
 date: 2023-02-04T17:28:38+08:00
 lastmod: 2023-02-04T17:28:38+08:00
-draft: false
+draft: true
 weight: 50
 images: []
 categories: []

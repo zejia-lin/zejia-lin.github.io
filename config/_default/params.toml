@@ -10,7 +10,7 @@ description = "Homepage"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["avatar.jpeg"]
 ogLocale = "en_US"
 domainTLD = "zejia-lin.github.io"
 titleHome = "Zejia LIN (林泽佳)"
@@ -28,10 +28,10 @@ schemaAuthor = "Zejia LIN (林泽佳)"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/zejia-lin"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "avatar.jpeg"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "avatar.jpeg"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"
@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright ©️ 2025 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright ©️ 2026 Zejia LIN" #  |  Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2025 Zejia LIN"
+copyRight = "Copyright (c) 2026 Zejia LIN"
 
 # Alert
 alert = false
