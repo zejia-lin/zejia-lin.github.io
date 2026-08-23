@@ -15,51 +15,41 @@ math: true
 
 I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](https://cse.sysu.edu.cn/en), advised by Assoc. Prof. [Xianwei Zhang](https://xianweiz.github.io/) and Prof. [Yutong Lu](https://cse.sysu.edu.cn/teacher/LuYutong). I obtained bachelor degree on Software Engineering at [Northwestern Polytechnical University](https://en.nwpu.edu.cn/). 
 
-My research interests lie in optimizing machine learning systems. 
-Currently, I am interning at WeChat Search, Tencent, to optimize LLM inference and RL training performance.
-<!-- A particular emphasis is on resource sharing and mixed-precision.  -->
+📚 My research interests lie in AI infrastrctures and  optimizing LLM serving systems from GPU perspectives. 
 
-**I am opening for internship! Click for my [résumé](/shared/ZejiaLin-Resume.pdf), [中文简历](/shared/中山大学-林泽佳简历.pdf).**
+🔥 **I am on the job market for industry positions! Click for my [résumé](/shared/ZejiaLin-Resume.pdf), [中文简历](/shared/中山大学-林泽佳简历.pdf).**
+
 <!-- A particular emphasis is on software designs (runtime/compiler) around resource sharing and mixed-precision computation. -->
 
-## News
+<!-- ## News
 
+- [2026/06]. Start interning at Moonshot Kimi.
 - [2025/11]. [Bullet](https://arxiv.org/abs/2504.19516) accepted to ASPLOS'2026.
 - [2025/10]. Bullet is presented on [SGLang Beijing Meetup](/shared/talks/SGLangBeijingMeetup.pdf).
 - [2025/04]. LLM serving system Bullet made public on [arXiv](https://arxiv.org/abs/2504.19516) and [Github](https://github.com/zejia-lin/Bullet).
 - [2024/12]. Start working as research intern at Wechat Search, Tencent.
 - [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted to LCTES'2024.
-- [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted to ICCD'2023.
+- [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted to ICCD'2023. -->
 
 
-## 🌟 News
+## Publications
 
-- [2025/04]: An LLM serving paper is made public on arXiv. See [Bullet](https://arxiv.org/abs/2504.19516)!
-- [2024/12]: Start interning at WXG, Tencent, researching on LLM serving and reinforcement learning!
-- [2024/06]: Attend the LCTES@PLDI 2024 conference in Copenhagen, Denmark and give an oral presentation.
-
-
-## 📄 Publications
-
-<button type="button" class="btn btn-sm btn-primary" disabled>arXiv</button> <a href="https://arxiv.org/pdf/2504.19516" type="button" class="btn btn-outline-primary btn-sm">PDF</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
-**Zejia Lin**, Hongxin Xu, Guanyi Chen, Xianwei Zhang, and Yutong Lu. <br>
-
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://arxiv.org/abs/2504.19516">**ASPLOS'26**</a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-light btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://arxiv.org/abs/2504.19516">**ASPLOS'26** <font color="#B22">(CCF-A)</font></a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-light btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
 **Zejia Lin**, Hongxin Xu, Guanyi Chen, Zhiguang Chen, Yutong Lu, and Xianwei Zhang. <br>
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3774652">**TACO**</a> <a href="https://github.com/Gemini321/HuntKTm" type="button" class="btn btn-light btn-sm">Code</a> **[HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3774652">**TACO** <font color="#B22">(CCF-A)</font></a> <a href="https://github.com/Gemini321/HuntKTm" type="button" class="btn btn-light btn-sm">Code</a> **[HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)** <br>
 Wenxuan Pan, **Zejia Lin**, Jiangsu Du and Xianwei Zhang. <br>
 
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://ieeexplore.ieee.org/document/11132627">**DAC'25**</a> <a href="https://mizuno-ai.wu-kan.cn/assets/image/2025/06/25/DAC25-GoPTX-Slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> <a href="https://github.com/wu-kan/GoPTX" type="button" class="btn btn-light btn-sm">Code</a> **[GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving](https://xianweiz.github.io/doc/papers/25dac_goptx.pdf)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://ieeexplore.ieee.org/document/11132627">**DAC'25** <font color="#B22">(CCF-A)</font></a> <a href="https://mizuno-ai.wu-kan.cn/assets/image/2025/06/25/DAC25-GoPTX-Slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> <a href="https://github.com/wu-kan/GoPTX" type="button" class="btn btn-light btn-sm">Code</a> **[GoPTX: Fine-grained GPU Kernel Fusion by PTX-level Instruction Flow Weaving](https://xianweiz.github.io/doc/papers/25dac_goptx.pdf)** <br>
 Kan Wu, **Zejia Lin**, Mengyue Xi, Zhongchun Zheng, Wenxuan Pan, Xianwei Zhang, and Yutong Lu. <br>
 <!-- *ACM/IEEE Design Automation Conference.* -->
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/abs/10.1145/3652032.3657567">**LCTES'24**</a> <a href="/shared/talks/mixpert_lctes24_slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> **[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](/shared/papers/mixpert_lctes24.pdf)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/abs/10.1145/3652032.3657567">**LCTES'24** <font color="#d4864e">(CCF-B)</font></a> <a href="/shared/talks/mixpert_lctes24_slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> **[MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores](/shared/papers/mixpert_lctes24.pdf)** <br>
 **Zejia Lin**, Aoyuan Sun, Xianwei Zhang, and Yutong Lu. <br>
 <!-- *ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems.* -->
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://ieeexplore.ieee.org/document/10361015">**ICCD'23**</a> <a href="/shared/talks/kesco_iccd23_slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> **[KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications](/shared/papers/kesco_iccd23.pdf)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://ieeexplore.ieee.org/document/10361015">**ICCD'23** <font color="#d4864e">(CCF-B)</font></a> <a href="/shared/talks/kesco_iccd23_slides.pdf" type="button" class="btn btn-light btn-sm">Slides</a> **[KeSCo: Compiler-based Kernel Scheduling for Multi-task GPU Applications](/shared/papers/kesco_iccd23.pdf)** <br>
 **Zejia Lin**<sup>#</sup>, Zewei Mo<sup>#</sup>, Xuanteng Huang, Xianwei Zhang, and Yutong Lu. <br>
 <!-- *IEEE International Conference on Computer Design.* -->
 
@@ -69,17 +59,61 @@ Zewei Mo, **Zejia Lin**, Xianwei Zhang, and Yutong Lu. <br>
 
 <sup># Equal contribution.</sup>
 
-## 🔬 Experiences
+
+
+## Experiences
+
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-logo-box">
+      <img src="logos/kimi.png" alt="Moonshot" class="experience-logo">
+    </div>
+    <div class="experience-info">
+      <p class="experience-heading">
+        <span class="experience-company">Moonshot Kimi</span><br>
+        <span class="experience-date">2026/06-Present @ Shenzhen</span><br>
+        <span class="experience-role">AI Infra Intern</span>
+      </p>
+    </div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-logo-box">
+      <img src="logos/wechat.png" alt="WeChat" class="experience-logo">
+    </div>
+    <div class="experience-info">
+      <p class="experience-heading">
+        <span class="experience-company">Tencent</span><br>
+        <span class="experience-date">2024/12 -- 2026/06 @ Guangzhou</span><br>
+        <span class="experience-role"><a href="https://mp.weixin.qq.com/s?__biz=MTkyNTM0MzA4MQ==&mid=2650961684&idx=1&sn=45c1e4c4da50169027a689a8c27effb5&poc_token=HGYMi2qjilFe_6AIkjerAXJio5gFSH2L3NV7AHeU">Project UP</a> (青云计划), AI Infra Research Intern, WeChat Search</span>
+      </p>
+    </div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-logo-box">
+      <img src="logos/wechat.png" alt="WeChat" class="experience-logo">
+    </div>
+    <div class="experience-info">
+      <p class="experience-heading">
+        <span class="experience-company">Tencent</span><br>
+        <span class="experience-date">2021/07 -- 2021/09 @ Shenzhen</span><br>
+        <span class="experience-role">Backend Develop Intern, WeChat Pay</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- 
+## Experiences
 
 - [2024.12 -- Now]. LLM research intern at Wechat Search, Tencent (Guangzhou).
 - [Spring 2023]. Teaching assistant of [DCS290/292: Compilation Principle](https://arcsysu.github.io/teach/dcs290/s2023.html), Sun Yat-sen University.
-- [2021.07 -- 2021.09]. Backend develop intern at Wechat Pay, Tencent (Shenzhen). 
+- [2021.07 -- 2021.09]. Backend develop intern at Wechat Pay, Tencent (Shenzhen).  -->
 
-## 🏆 Awards
+## Awards
 
-- [2022, 2023, 2024]. **First Class Scholarship**, Sun Yat-sen University.
+- [2022 -- 2024]. **First Class Scholarship**, Sun Yat-sen University.
 - [2022]. **Excellence Scholarship**, Tencent Technology.
-- [2019, 2020, 2021]. **First Class Scholarship**, Northwestern Polytechnical University.
+- [2019 -- 2021]. **First Class Scholarship**, Northwestern Polytechnical University.
 - [2020]. **Second Price**, CCCC Wechat Mini Program Development.
 
 

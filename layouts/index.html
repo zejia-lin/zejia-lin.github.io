@@ -364,6 +364,71 @@
     }
   }
 
+    /* Experience section with company logos (layout aligned with jokerwyt.github.io) */
+  .experience-list {
+    display: grid;
+    gap: 1.25rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .experience-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    min-height: 110px;
+  }
+
+  .experience-logo-box {
+    flex: 0 0 25%;
+    max-width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .experience-logo {
+    max-width: 155px;
+    max-height: 118px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .experience-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .experience-heading {
+    margin-bottom: 0;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  .experience-company {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1B6CD4;
+  }
+
+  @media (max-width: 768px) {
+    .experience-item {
+      flex-direction: column;
+      gap: 0.75rem;
+      min-height: 0;
+    }
+
+    .experience-logo-box {
+      flex: none;
+      max-width: none;
+    }
+  }
+
   /* Your existing styles */
   .btn-sm {
     padding-left: 1;
