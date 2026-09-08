@@ -15,9 +15,9 @@ I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](
 <!-- ## News
 
 - [2026/06]. Start interning at Moonshot Kimi.
-- [2025/11]. [Bullet](https://arxiv.org/abs/2504.19516) accepted to ASPLOS'2026.
+- [2025/11]. [Bullet](https://dl.acm.org/doi/pdf/10.1145/3779212.3790135) accepted to ASPLOS'2026.
 - [2025/10]. Bullet is presented on [SGLang Beijing Meetup](/shared/talks/SGLangBeijingMeetup.pdf).
-- [2025/04]. LLM serving system Bullet made public on [arXiv](https://arxiv.org/abs/2504.19516) and [Github](https://github.com/zejia-lin/Bullet).
+- [2025/04]. LLM serving system Bullet made public on [arXiv](https://dl.acm.org/doi/pdf/10.1145/3779212.3790135) and [Github](https://github.com/zejia-lin/Bullet).
 - [2024/12]. Start working as research intern at Wechat Search, Tencent.
 - [2024/04]. Mixed-precision computing paper [MixPert](/shared/papers/mixpert_lctes24.pdf) accepted to LCTES'2024.
 - [2023/07]. My first paper [KeSCo](/shared/papers/kesco_iccd23.pdf) accepted to ICCD'2023. -->
@@ -25,7 +25,7 @@ I am a forth-year Ph.D. student of Computer Science at [Sun Yat-sen University](
 
 ## Publications
 
-<a type="button" class="btn btn-sm btn-outline-dark" href="https://arxiv.org/abs/2504.19516">**ASPLOS'26** <font color="#B22">(CCF-A)</font></a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-light btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516)** <br>
+<a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/pdf/10.1145/3779212.3790135">**ASPLOS'26** <font color="#B22">(CCF-A)</font></a> <a href="https://github.com/zejia-lin/Bullet" type="button" class="btn btn-light btn-sm">Code</a> **[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://dl.acm.org/doi/pdf/10.1145/3779212.3790135)** <br>
 **Zejia Lin**, Hongxin Xu, Guanyi Chen, Zhiguang Chen, Yutong Lu, and Xianwei Zhang. <br>
 
 <a type="button" class="btn btn-sm btn-outline-dark" href="https://dl.acm.org/doi/10.1145/3774652">**TACO** <font color="#B22">(CCF-A)</font></a> <a href="https://github.com/Gemini321/HuntKTm" type="button" class="btn btn-light btn-sm">Code</a> **[HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://xianweiz.github.io/doc/papers/25taco_huntktm.pdf)** <br>

@@ -15,9 +15,9 @@ images: []
 
 
 - **Zejia Lin**, Hongxin Xu, Guanyi Chen, Zhiguang Chen, Yutong Lu, and Xianwei Zhang. <br>
-[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://arxiv.org/abs/2504.19516) <font color="#B22">(CCF-A)</font> <br>
+[Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration](https://dl.acm.org/doi/pdf/10.1145/3779212.3790135) <font color="#B22">(CCF-A)</font> <br>
 *The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2026.*
-[[PDF](https://arxiv.org/abs/2504.19516)][[Code](https://github.com/zejia-lin/Bullet)].
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790135)][[Code](https://github.com/zejia-lin/Bullet)].
 
 - Wenxuan Pan, **Zejia Lin**, Jiangsu Du and Xianwei Zhang. <br>
 [HuntKTm: Hybrid Scheduling and Automatic Management for Efficient Kernel Execution on Modern GPUs](https://dl.acm.org/doi/10.1145/3774652) <font color="#B22">(CCF-A)</font> <br>
